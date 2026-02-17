@@ -15,3 +15,15 @@ Time complexity : O(row x coloumn)
 10 11 12
 
 suppose i have to search for 8 then first i will search for the row in which i can find this value
+
+i will create a variable 
+value = arr[i][0]
+mid = min + (max - min)/2
+if(value > mid)
+{
+min = arr[i+1][0]
+}
+else{
+max = arr[i-11][0]
+}
+}
